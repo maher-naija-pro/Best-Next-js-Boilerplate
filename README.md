@@ -376,10 +376,8 @@ npx semantic-release  # Automatically determine the next version number, generat
 ├── package.json
 ├── README.md
 └── tsconfig.app.json
-└── tsconfig.app.json
-└── tsconfig.app.json
+
 
 
 ```
 ````
-# Best-Next-js-Boilerplate
