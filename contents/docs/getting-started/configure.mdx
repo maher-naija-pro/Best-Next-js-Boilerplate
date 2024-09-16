@@ -1,0 +1,85 @@
+---
+title: Configuration
+description: This section provides a fast configuration guide .
+---
+
+Follow these steps to Configure your application:
+{" "}<br />
+
+<br />
+
+## Generate an Auth Secret
+
+Run the following command to generate a secret for authentication and add it to the .env file:
+
+```
+npx auth secret
+
+```
+
+Add the generated secret to your .env file:
+
+```
+AUTH_SECRET="your-auth-secret"
+
+```
+
+##Set Up the Database
+Go to the website and create a new database. Once the database is created, obtain the connection string.
+Remember to include your database name in the connection string. Add this connection string to your .env file:
+
+```
+DATABASE_URL=""
+```
+
+##Configuring Prisma ORM
+
+```
+npx prisma generate
+
+```
+
+## Set env vars
+
+<br />
+Configure your application : copy .env.exemple to a nex file .env set all mandatory variables
+<br />
+AUTH_SECRET
+
+DATABASE_URL
+
+AUTH_SECRET
+
+DATABASE_URL=""
+
+STRIPE_API_KEY=""
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=""
+
+RESEND_API_KEY=""
+
+NEXT_PUBLIC_APP_URL="https://"
+
+GITHUB_CLIENT_ID=""
+
+GITHUB_CLIENT_SECRET=""
+
+GOOGLE_CLIENT_ID=""
+
+GOOGLE_CLIENT_SECRET=""
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```

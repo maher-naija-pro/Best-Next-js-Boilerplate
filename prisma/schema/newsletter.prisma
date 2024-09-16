@@ -1,0 +1,6 @@
+model Newsletter {
+  id        String     @default(cuid()) @id
+  email     String  @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

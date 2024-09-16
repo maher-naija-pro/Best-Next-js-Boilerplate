@@ -1,0 +1,33 @@
+{
+  "Platform": {
+    "title": "nextboost.com"
+  },
+  "Herotext": {
+    "title": "Your Ready Full Stack",
+    "titlegradient": "SaaS",
+    "text": " A production-ready and easy to customize code base platform for mobile and web projects, the perfect starting point to accelerate building your own saas project."
+  },
+  "HeroButtons": {
+    "Started": "Get Started",
+    "Github": "Github"
+  },
+  "Herocards": {
+    "open": {
+      "title": "FREE",
+      "description": "MIT licence",
+      "span": "Open-source"
+    },
+    "team": {
+      "title": "Soraya",
+      "description": "Fullstack Developer",
+      "content": "I enjoy transforming ideas into functional software that exceeds expectations."
+    },
+    "popular": {
+      "title": "Pro",
+      "description": "Our Pro plan.",
+      "badg": "Most popular",
+      "span": "292$",
+      "span2": "one shot"
+    }
+  }
+}
