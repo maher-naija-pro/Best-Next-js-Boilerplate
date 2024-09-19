@@ -1,12 +1,8 @@
-
-
 # Best Nextjs tailwindCSS boilerplate on github
-
 
 Boilerplate and Starter for Next.js with App Router support, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky,VSCode, PostCSS, Tailwind CSS,Authentication, Database
 
 Clone this project and use it to create your own Next.js project..
-
 
 ![image](https://github.com/user-attachments/assets/ab016103-394f-45e5-ba72-a33af6b555f8)
 
@@ -45,10 +41,7 @@ npm install
 Then, you can run the project locally in development mode with live reload by executing:
 
 ```bash
-
-
 npm run dev
-
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -58,9 +51,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 To configure the application, you need to add this generate secret to your .env file as AUTH_SECRET="your-auth-secret".
 To generate an auth secret, run the following command:
 
-````bash
+```
 npx auth secret
 ```
+
 ## Set up remote database
 
 To set up a remote PostgreSQL database, follow these steps:
@@ -197,8 +191,6 @@ Nothing is hidden from you, so you have the freedom to make the necessary adjust
 💨 Live reload
 ✅ Cache busting
 
-
-
 ## Useful commands
 
 # Bundle Analyzer
@@ -208,7 +200,7 @@ Next.js Boilerplate comes with a built-in bundle analyzer. It can be used to ana
 ```bash
 npm run build-stats
 #By running the command, it'll automatically open a new browser window with the results.
-````
+```
 
 # Database Studio
 
