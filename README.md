@@ -31,10 +31,26 @@ Run the following command on your local environment:
 
 ```bash
 
-git clone --depth=1 https://github.com/my-project-name
-cd my-project-name
+git clone  https://github.com/maher-naija-pro/Best-Next-js-Boilerplate.git
+cd Best-Next-js-Boilerplate
 npm install
+```
 
+## Set up authentication
+
+To generate an auth secret, run the following command:
+
+```
+npx auth secret
+
+```
+
+To configure the application, Rename .env_example file to .env ,you need to add this generate secret to your .env file as AUTH_SECRET="your-auth-secret".
+
+Build your application by running :
+
+```bash
+npm run build
 
 ```
 
@@ -45,15 +61,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Set up authentication
-
-To configure the application, you need to add this generate secret to your .env file as AUTH_SECRET="your-auth-secret".
-To generate an auth secret, run the following command:
-
-```
-npx auth secret
-```
 
 ## Set up remote database
 
