@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl"
 import Link from "next/link"
 
 export const HeroButton = () => {
-  const text = useTranslations("Herocards")
+  const text = useTranslations("HeroButtons")
   return (
     <div className="mt-10 sm:mt-20 flex flex-col sm:flex-row gap-4 ">
       {" "}

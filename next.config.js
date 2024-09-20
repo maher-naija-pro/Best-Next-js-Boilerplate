@@ -10,7 +10,7 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["react"],
 
-    nextScriptWorkers: true,
+    nextScriptWorkers: false,
     mdxRs: true
   },
   async headers() {
