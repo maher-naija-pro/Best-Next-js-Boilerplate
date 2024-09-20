@@ -210,12 +210,6 @@ To explore the database, run the following command to open the database studio:
 npx prisma studio
 ```
 
-To access the database, run the following command to open the database studio:
-
-````
-npx prisma studio
-```
-
 http://localhost:5555/
 
 The project is already configured with prisma Studio to explore the database. You can run the following command to open the database studio:
@@ -238,7 +232,7 @@ Inside that directory, you can run several commands:
 
 **Run end-to-end tests:**
 
-```bash
+````bash
 npx playwright test
 
 
@@ -246,7 +240,7 @@ npx playwright test
 
 ```bash
 npx playwright test --ui
-```
+````
 
 **Run tests in a specific file:**
 
@@ -380,4 +374,7 @@ npx semantic-release  # Automatically determine the next version number, generat
 
 
 ```
-````
+
+```
+
+```
